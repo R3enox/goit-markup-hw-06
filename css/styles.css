@@ -804,7 +804,7 @@ background-color: #31d0aa;
     margin-bottom: 16px;
 }
 
-.contact-form-field-desc {
+.contact-form-field-lable {
     display: block;
     margin-bottom: 4px;
     font-weight: 400;
@@ -845,6 +845,10 @@ background-color: #31d0aa;
 .contact-form-input:focus + .contact-form-input-icon {
     fill: var(--primary-color);
 }
+
+.contac-form-message {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+} 
 
 .contact-form-checkbox-wrapper {
     margin-top: 8px;
