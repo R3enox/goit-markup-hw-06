@@ -800,17 +800,24 @@ background-color: #31d0aa;
     margin-bottom: 8px;
 }
 
+.wrapper-mb {
+    margin-bottom: 16px;
+}
 .textarea-wrapper {
     margin-bottom: 16px;
 }
 
-.contact-form-field-lable {
+.contact-form-field-lable, {
     display: block;
     margin-bottom: 4px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--customers-link-color);
+}
+
+.contact-form-field-lable {
+
 }
 
 .contact-form-input-wrapper {
@@ -845,16 +852,9 @@ background-color: #31d0aa;
     fill: var(--primary-color);
 }
 
-.contac-form-message {
-    border: 1px solid rgba(46, 47, 66, 0.4);
-} 
 
 .contact-form-checkbox-wrapper {
     margin-top: 8px;
-}
-
-.contact-form-checkbox {
-visually-
 }
 
 
@@ -863,16 +863,16 @@ visually-
     height: 120px;
     resize: none;
     padding: 8px 16px;
-}
-
-.contac-form-message::placeholder {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
+    outline: transparent;
+    transition: background-color var(--transition-duration-and-func);
 }
 
+ 
 .contac-form-message:focus {
     border-color: var(--primary-color);
     outline: none;
@@ -884,10 +884,10 @@ visually-
     margin-bottom: 24px;
 }
 
-.contact-form-checkbox {
+/* .contact-form-checkbox {
     appearance: none;
     position: absolute;
-}
+} */
 
 .contact-form-own-checkbox {
     display: inline-flex;
