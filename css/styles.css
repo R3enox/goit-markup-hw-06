@@ -821,16 +821,16 @@ background-color: #31d0aa;
 .contact-form-input {
     width: 100%;
     height: 40px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.2);
     border-radius: 4px;
     padding-left: 38px;
     transition: border-color var(--transition-duration-and-func);
     background-color: transparent;
+    outline: transparent;
 }
 
 .contact-form-input:focus {
     border-color: var(--primary-color);
-    outline: none;
 }
 
 .contact-form-input-icon {
