@@ -454,16 +454,18 @@
         <div class="footer-last-side">
           <p class="social-description-theme-light link">Subscribe</p>
           <form class="footer-subscribe-form">
-            <input
-              class="footer-subscribe-input"
-              type="email"
-              name="user_email"
-              required
-              placeholder="E-mail"
-            />
+            <label class="footer-suscribe-form-wrapper">
+              <input
+                class="footer-subscribe-input"
+                type="email"
+                name="user_email"
+                required
+                placeholder="E-mail"
+              />
+            </label>
             <button class="footer-subscribe-submit" type="submit">
               Subscribe
-              <svg class="subscribe-icon" width="24" height="20">
+              <svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -478,11 +480,11 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <h2 class="modal-title">Leave your contacts and we will call you back</h2>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="contact-form">
           <label class="contact-form-field-wrapper">
-            <span class="contact-form-field-desc"> Name </span>
-            <span class="contact-form-input-wrapper">
+            <div class="contact-form-field-desc">Name</div>
+            <div class="contact-form-input-wrapper">
               <input
                 class="contact-form-input"
                 type="text"
@@ -493,11 +495,11 @@
               <svg class="contact-form-input-icon" width="12" height="12">
                 <use href="./images/icons.svg#icon-name"></use>
               </svg>
-            </span>
+            </div>
           </label>
           <label class="contact-form-field-wrapper">
-            <span class="contact-form-field-desc"> Phone </span>
-            <span class="contact-form-input-wrapper">
+            <div class="contact-form-field-desc">Phone</div>
+            <div class="contact-form-input-wrapper">
               <input
                 class="contact-form-input"
                 type="tel"
@@ -509,19 +511,19 @@
               <svg class="contact-form-input-icon" width="13" height="13">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
-            </span>
+            </div>
           </label>
           <label class="contact-form-field-wrapper">
-            <span class="contact-form-field-desc"> Email </span>
-            <span class="contact-form-input-wrapper">
+            <div class="contact-form-field-desc">Email</div>
+            <div class="contact-form-input-wrapper">
               <input class="contact-form-input" type="email" name="user_email" required />
               <svg class="contact-form-input-icon" width="12" height="12">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
-            </span>
+            </div>
           </label>
           <label class="contact-form-field-wrapper">
-            <span class="contact-form-field-desc"> Comment </span>
+            <div class="contact-form-field-desc">Comment</div>
             <textarea
               class="contac-form-message"
               name="user_message"
