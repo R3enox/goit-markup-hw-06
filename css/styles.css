@@ -907,7 +907,7 @@ background-color: #31d0aa;
     position: absolute;
 }
 
-.visually:checked + .contact-form-fxield-lable .contact-form-own-checkbox  {
+.visually:checked + .contact-form-field-lable .contact-form-own-checkbox  {
     background-color: var(--accent-color);
     border: none;
     fill: var(--social-description-color);
