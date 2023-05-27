@@ -850,11 +850,6 @@ background-color: #31d0aa;
 }
 
 
-.contact-form-checkbox-wrapper {
-    margin-top: 8px;
-}
-
-
 .contac-form-message {
     width: 100%;
     height: 120px;
@@ -884,12 +879,6 @@ background-color: #31d0aa;
     margin-bottom: 24px;
 }
 
-
-/* .contact-form-checkbox {
-    appearance: none;
-    position: absolute;
-} */
-
 .contact-form-own-checkbox {
     display: inline-flex;
     justify-content: center;
@@ -904,13 +893,6 @@ background-color: #31d0aa;
     transition: background-color var(--transition-duration-and-func);
 }
 
-.contact-form-checkmark-icon {
-    background-color: var(--accent-color);
-    border: none;
-    fill: var(--social-description-color);
-    border-color: var(--accent-color);
-}
-
 .contact-form-checkbox-link {
     color: var(--primary-color);
 }
@@ -920,23 +902,17 @@ background-color: #31d0aa;
     outline: 1px solid var(--primary-color);
 }
 
-.visually-hidden:checked + .contact-form-own-checkbox {
+.visually-hidden {
+    appearance: none;
+    position: absolute;
+}
+
+.visually:checked + .contact-form-fxield-lable .contact-form-own-checkbox  {
     background-color: var(--accent-color);
     border: none;
     fill: var(--secondary-color-theme-light);
     border-color: var(--accent-color);
 }
-
-/* .contact-form-checkmark-icon {
-    opacity: 0;
-}
-
-
-
-.contact-form-checkbox:checked + .contact-form-own-checkbox .contact-form-checkmark-icon {
-    opacity: 1;
-    
-} */
 
 .contact-form-submit {
     display: block;
