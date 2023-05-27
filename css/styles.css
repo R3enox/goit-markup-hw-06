@@ -910,7 +910,7 @@ background-color: #31d0aa;
 .visually:checked + .contact-form-fxield-lable .contact-form-own-checkbox  {
     background-color: var(--accent-color);
     border: none;
-    fill: var(--secondary-color-theme-light);
+    fill: var(--social-description-color);
     border-color: var(--accent-color);
 }
 
