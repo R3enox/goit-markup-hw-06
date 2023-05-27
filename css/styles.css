@@ -890,7 +890,6 @@ background-color: #31d0aa;
     fill: transparent;
     cursor: pointer;
     margin-right: 8px;
-    transition: background-color var(--transition-duration-and-func);
 }
 
 .contact-form-checkbox-link {
